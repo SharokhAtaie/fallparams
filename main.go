@@ -58,6 +58,7 @@ ___________        ____  ___  __________
 		if err1 != nil {
 			log.Fatal(err1)
 		}
+		return
 	}
 	fmt.Println(data)
 }
